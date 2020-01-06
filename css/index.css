@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(165, 163, 163);
+}
+
+.bg {
+    background-color: rgb(21, 30, 61);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.question {
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-right: 10px;
+}
+
+.question:hover {
+    color: rgb(240, 236, 236);
+}
