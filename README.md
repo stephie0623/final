@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## 期末報告主題
 
-You can use the [editor on GitHub](https://github.com/stephie0623/final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+主要做了一個前幾年很紅的小遊戲2048，進入首頁可以發現遊戲有四個等級，右上角有一個問號點擊即可觀看遊戲規則說明。
+遊戲玩法主要就是按鍵盤上的上下左右鍵來操控方格，將相同數字的方格合併，最終達到遊戲目標數字，通過則可進入下一關。
+第一關目標為256，第二關為512，第三關為1024，第四關則是2048。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephie0623/final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 做了什麼和網站特色
+首頁就是結合了圖片和超連結的應用，點進去每一關的主色系都不一樣，分別為藍、紅、綠、黃，不過去計中用windows系統查看網頁後發現跟用自己電腦做得有點不一樣，有不少色差問題，然後字體也不一樣，有點可惜。
+在第一關的頁面是無法連結到後面關卡的頁面的，只有破完該關，下一關才會顯示他的連結，不過如果想玩後面的關卡可以回到首頁點選即可。
+js的部分有上網大概查看2048的js程式碼，看了一下大架構該怎麼寫，然後進行修改，像是將它進行分關，所以就有寫遊戲勝利的function，跟如何跳到下一關。
